@@ -2,6 +2,12 @@ package Greedy;
 
 import java.util.Scanner;
 
+/***
+ * 
+ * @author dahae
+ * 2022/01/29 해결 x
+ * 주어진 테스트는 통과 했으나, 예외 경우 처리가 안됨. 다시 풀 것.
+ */
 public class Num_5585 {
 
 	public static void main(String[] args) {
