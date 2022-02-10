@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 /****
  * 
  * @author dahae
- * 못품. 문제 풀이 방향을 잘못 잡은 것 같다.
+ * 못품. 문제 풀이 방향을 잘못 잡은 것 같다. 내일다시
  */
 public class Num1343 {
 
