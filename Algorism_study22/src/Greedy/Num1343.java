@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 /****
  * 
  * @author dahae
- * 못품. 문제 풀이 방향을 잘못 잡은 것 같다. 내일다시
+ * 성공 - 답안 확인 완료
+ * 근데 내가 푼 방법이 그리디에 맞는지는 모르겠음..
  */
 public class Num1343 {
 
@@ -67,13 +68,8 @@ public class Num1343 {
 						cnt = 0;
 					}
 				}
-				
-				
-				
-				
-				
+
 				if(cnt == 4) {
-					System.out.println(cnt);
 					tmp += plio1;
 					cnt = 0;
 				}
