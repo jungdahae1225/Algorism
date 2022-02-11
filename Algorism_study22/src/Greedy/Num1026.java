@@ -14,7 +14,7 @@ import java.util.Scanner;
 	2 2 0
  * 에 대한 해결을 하지 못함
  */
-public class Num_1026 {
+public class Num1026 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

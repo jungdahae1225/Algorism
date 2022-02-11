@@ -11,7 +11,7 @@ import java.util.Scanner;
  * 경우 3에 대한 로직이 생각나지 않음..
  */
 
-public class Num_1541 {
+public class Num1541 {
 	 public static void main(String[] args) {
 		 //첫째 줄에 식이 주어진다. 식은 ‘0’~‘9’, ‘+’, 그리고 ‘-’만으로 이루어져 있다.
 		 

@@ -17,7 +17,7 @@ import java.util.Scanner;
  */
 //문제 사항 들어오는 숫자 중 5나 6이 있으면 두가지를 바꿔서 나오는 수도 경우의 수에 추가시켜준다.
 //모든 경우의 수 구하지 말고 최소값을 구할 때는 6을 5로만 구하면 되고, 최대값은 5를 6으로만.
-public class Num_2864 {
+public class Num2864 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub

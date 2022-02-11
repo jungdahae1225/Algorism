@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 답안 확인 완료
  * 11047과 비슷한 문제
  */
-public class Num_10162 {
+public class Num10162 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

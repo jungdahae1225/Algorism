@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Num_2217 {
+public class Num2217 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
