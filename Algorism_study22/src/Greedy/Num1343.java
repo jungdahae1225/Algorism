@@ -24,32 +24,57 @@ public class Num1343 {
 		
 		String tmp = "";
 		int cnt = 0;
-		
-		//.없이 X가 바로 나오는 경우
-		//
-		
-		
+
 		for(int i = 0 ; i < stArray.length ; i++) {
 			
 			if(stArray[i].equals(".")) { //cnt를 멈추는 순간에 쌓인 X가 몇개인지.
-				if(cnt == 1 || cnt == 3) {
-					System.out.print("-1");
-					System.exit(0);
-				}
-
-				if(cnt == 2){
-					System.out.println(cnt);
-					tmp += "BB";
-					cnt = 0;
-				}
 				tmp += ".";
 			}
-			
+
 			else {//stArray[i].equals("X")
 				cnt++;
+				
+				if(i < stArray.length -1) {
+					if(cnt == 1 && stArray[i+1].equals(".")) { //cnt == 1일때
+						System.out.print("-1");
+						System.exit(0);
+					}
+					if(cnt == 3 && stArray[i+1].equals(".")) {
+						System.out.print("-1");
+						System.exit(0);
+					}
+					if(cnt == 2){ //X가 2개까지 채워졌고, 다음이 X가 아닐 때
+						if(!stArray[i+1].equals("X")) {	
+							//System.out.println(cnt);
+							tmp += plio2;
+							cnt = 0;
+						}
+					}
+				}
+				
+				else {
+					if(cnt == 1) { //cnt == 1일때
+						System.out.print("-1");
+						System.exit(0);
+					}
+					if(cnt == 3) {
+						System.out.print("-1");
+						System.exit(0);
+					}
+					if(cnt == 2){ //X가 2개까지 채워졌고, 다음이 X가 아닐 때
+						//System.out.println(cnt);
+						tmp += plio2;
+						cnt = 0;
+					}
+				}
+				
+				
+				
+				
+				
 				if(cnt == 4) {
 					System.out.println(cnt);
-					tmp += "AAAA";
+					tmp += plio1;
 					cnt = 0;
 				}
 			}	
