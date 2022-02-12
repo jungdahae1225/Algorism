@@ -18,6 +18,7 @@ import java.io.OutputStreamWriter;
 public class Num1789 {
 
 	public static void main(String[] args) throws IOException {
+		
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -36,6 +37,7 @@ public class Num1789 {
 				break;
 			}
 		}
+		
 		System.out.print(i);
 		//bw.write(i);
 		bw.close();
